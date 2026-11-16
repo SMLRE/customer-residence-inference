@@ -1,0 +1,168 @@
+{
+  "v1_blended": {
+    "customers_scored": 29935,
+    "relocated_share": 0.8374,
+    "confidence_mix": {
+      "HIGH": 0.9192,
+      "MEDIUM": 0.0611,
+      "LOW": 0.0197
+    },
+    "net_inflow_by_state": {
+      "LAGOS": 13593,
+      "ABUJA_FCT": 2176,
+      "OGUN": -104,
+      "RIVERS": -384,
+      "PLATEAU": -527,
+      "IMO": -541,
+      "AKWA_IBOM": -808,
+      "BENUE": -818,
+      "EDO": -897,
+      "KWARA": -1024,
+      "KANO": -1043,
+      "DELTA": -1109,
+      "ONDO": -1125,
+      "ENUGU": -1131,
+      "OSUN": -1332,
+      "OYO": -1417,
+      "KADUNA": -1632,
+      "ANAMBRA": -1877
+    }
+  },
+  "atm_model": {
+    "customers_scored": 29852,
+    "relocated_share": 0.837,
+    "confidence_mix": {
+      "HIGH": 0.8981,
+      "MEDIUM": 0.0708,
+      "LOW": 0.031
+    },
+    "net_inflow_by_state": {
+      "LAGOS": 13194,
+      "ABUJA_FCT": 2172,
+      "OGUN": 252,
+      "RIVERS": -392,
+      "PLATEAU": -525,
+      "IMO": -539,
+      "AKWA_IBOM": -805,
+      "BENUE": -811,
+      "EDO": -895,
+      "KWARA": -1017,
+      "KANO": -1041,
+      "DELTA": -1107,
+      "ONDO": -1123,
+      "ENUGU": -1131,
+      "OSUN": -1331,
+      "OYO": -1407,
+      "KADUNA": -1631,
+      "ANAMBRA": -1863
+    }
+  },
+  "branch_model": {
+    "customers_scored": 28979,
+    "relocated_share": 0.8324,
+    "confidence_mix": {
+      "HIGH": 0.7874,
+      "MEDIUM": 0.1498,
+      "LOW": 0.0628
+    },
+    "net_inflow_by_state": {
+      "LAGOS": 13368,
+      "ABUJA_FCT": 2095,
+      "RIVERS": -402,
+      "IMO": -485,
+      "PLATEAU": -498,
+      "OGUN": -583,
+      "BENUE": -750,
+      "AKWA_IBOM": -753,
+      "EDO": -847,
+      "KWARA": -968,
+      "KANO": -990,
+      "DELTA": -1048,
+      "ENUGU": -1080,
+      "ONDO": -1083,
+      "OSUN": -1282,
+      "OYO": -1367,
+      "KADUNA": -1556,
+      "ANAMBRA": -1771
+    }
+  },
+  "top_corridors_atm": [
+    {
+      "open_state": "OYO",
+      "inferred_state": "LAGOS",
+      "customers": 1466
+    },
+    {
+      "open_state": "RIVERS",
+      "inferred_state": "LAGOS",
+      "customers": 1196
+    },
+    {
+      "open_state": "KANO",
+      "inferred_state": "LAGOS",
+      "customers": 1104
+    },
+    {
+      "open_state": "ENUGU",
+      "inferred_state": "LAGOS",
+      "customers": 1093
+    },
+    {
+      "open_state": "OGUN",
+      "inferred_state": "LAGOS",
+      "customers": 1085
+    },
+    {
+      "open_state": "ANAMBRA",
+      "inferred_state": "LAGOS",
+      "customers": 1076
+    },
+    {
+      "open_state": "ABUJA_FCT",
+      "inferred_state": "LAGOS",
+      "customers": 977
+    },
+    {
+      "open_state": "KADUNA",
+      "inferred_state": "LAGOS",
+      "customers": 973
+    },
+    {
+      "open_state": "DELTA",
+      "inferred_state": "LAGOS",
+      "customers": 950
+    },
+    {
+      "open_state": "OSUN",
+      "inferred_state": "LAGOS",
+      "customers": 796
+    }
+  ],
+  "branch_vs_atm_disagreement": 0.0514,
+  "synthetic_accuracy_vs_truth": [
+    {
+      "model": "V1 weighted blend",
+      "coverage": 0.998,
+      "accuracy_all": 0.985,
+      "accuracy_HIGH": 0.997,
+      "share_HIGH": 0.919,
+      "accuracy_ogun_residents": 0.838
+    },
+    {
+      "model": "Branch model",
+      "coverage": 0.966,
+      "accuracy_all": 0.95,
+      "accuracy_HIGH": 0.981,
+      "share_HIGH": 0.787,
+      "accuracy_ogun_residents": 0.607
+    },
+    {
+      "model": "ATM model",
+      "coverage": 0.995,
+      "accuracy_all": 0.995,
+      "accuracy_HIGH": 1.0,
+      "share_HIGH": 0.898,
+      "accuracy_ogun_residents": 0.99
+    }
+  ]
+}
