@@ -1,5 +1,7 @@
 # Customer Residence Inference (CRI)
 
+[![CI](https://github.com/SMLRE/customer-residence-inference/actions/workflows/ci.yml/badge.svg)](https://github.com/SMLRE/customer-residence-inference/actions/workflows/ci.yml)
+
 Infers where customers **actually live and move**, based on branch visits, ATM withdrawals and card/POS activity, instead of the stale address captured at account opening.
 
 > **About the data.** This is a public re-implementation of a model I built and presented at a Nigerian commercial bank. Customer data is **not** in this repo. The code runs on synthetic footprints with the same structure. The "In production" section reports the real findings. Results after it come from the synthetic data.
@@ -74,4 +76,4 @@ notebooks/walkthrough.ipynb
 
 ## Author
 
-**Oluwasemilore Sadare**, Senior Data Scientist · [LinkedIn](https://www.linkedin.com/in/oluwasemilore-sadare) · [GitHub](https://github.com/SMLRE)
+**Oluwasemilore Sadare**, Data Scientist · [LinkedIn](https://www.linkedin.com/in/oluwasemilore-sadare) · [GitHub](https://github.com/SMLRE)
